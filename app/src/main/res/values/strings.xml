@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">AgriPro</string>
+
+    <string-array name="titAgri">
+
+        <item>Animals-Disease Symptoms</item>
+        <item>Fertilizer-Stock</item>
+        <item>Crop-Seeds</item>
+        <item>Diagonistic Lab</item>
+        <item>Benificiaries</item>
+        <item>Dos and Dont</item>
+        <item>Complains</item>
+        <item>Tender</item>
+        <item>Contacts</item>
+        <item>Market</item>
+        <item>Exports and Imports</item>
+
+
+    </string-array>
+    <string-array name="description2">
+        <item>.</item>
+        <item>.</item>
+        <item>.</item>
+        <item>.</item>
+    </string-array>
+    <string-array name="titles2">
+        <item>Corn</item>
+        <item>Dry Beans</item>
+        <item>Sun Flower</item>
+        <item>Wheat</item>
+    </string-array>
+
+    <string-array name="tit">
+        <item>Crops</item>
+        <item>Camera</item>
+        <item>Pest shop</item>
+        <item>Farmers Portal</item>
+        <item>Experts Advice</item>
+    </string-array>
+
+    <string name="title_activity_maps">Map</string>
+
+</resources>

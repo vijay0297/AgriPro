@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    tools:context="com.vijayy.vijay.letsbegin.PostActivity">
+
+    <ImageButton
+        android:id="@+id/imageselect"
+        android:layout_width="379dp"
+        android:layout_height="152dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@mipmap/add_btn"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="367dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/imageselect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/input_shape"
+        android:ems="10"
+        android:hint="Topic."
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <EditText
+        android:id="@+id/decsfileld"
+        android:layout_width="373dp"
+        android:layout_height="130dp"
+        android:layout_alignEnd="@+id/title"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignRight="@+id/title"
+        android:layout_alignStart="@+id/title"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input_shape"
+        android:ems="10"
+        android:hint="Query?"
+        android:inputType="textPersonName"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="380dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/olive"
+        android:text="POST"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textColorLink="@color/cardview_light_background"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="433dp" />
+</RelativeLayout>
